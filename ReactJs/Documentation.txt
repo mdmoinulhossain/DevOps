@@ -1,0 +1,1 @@
+" _redirects " - file is for prevent netlify url 404 error.
