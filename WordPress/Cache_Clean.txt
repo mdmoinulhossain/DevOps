@@ -1,0 +1,5 @@
+You may refer to this video on how to delete the files: https://www.namecheap.com/support/knowledgebase/article.aspx/10263/2255/video-removing-files-in-file-manager/
+
+Also, you can check your Inodes usage following this guide: https://www.namecheap.com/support/knowledgebase/article.aspx/9331/29/how-to-check-the-number-of-inodes-in-your-hosting-account/
+
+That is how you can clean Litespeed Cache: Navigate to cPanel > The “LiteSpeed Web Cache Manager” menu >> Click on the orange “Flush all” button >> Ok.
