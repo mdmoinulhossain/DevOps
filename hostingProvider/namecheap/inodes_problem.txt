@@ -1,0 +1,14 @@
+===Problem=====
+#File Usage warning(inodes)
+
+This issue means that the limit of your Inodes is almost reached. In simple words, each inode usually equals one file, folder, email or any other unix object in a file system.
+
+Then you won't be able to add or edit anything.
+
+For example, let's suppose you are using 20 / 30GB of disk space on your server. This would represent your disk space usage. However, if you have hundreds of thousands of small files within that 20 /30 GB, that could result in high inode usage, which could negatively affect the performance of your server.
+
+Let's suppose 50GB is your disk space usage. You are not using all of the space, however, your hosting is limited in the number of files/folders/emails. In our case, it is 300 000, each file represents one inode.
+
+Read More
+
+https://www.namecheap.com/support/knowledgebase/article.aspx/1127/103/a-handy-guide-to-resource-limits-or-what-is-lve/
