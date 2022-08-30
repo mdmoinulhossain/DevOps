@@ -1,0 +1,64 @@
+Common CLI: cd>cd ..>ls
+
+ls -a (see hidden file in server)
+
+start server: $ node server.js
+#Makes Droplet.
+
+#Once you are logged in within the System then update and upgrade your system by using linux command:
+
+$ apt-get update && apt-get upgrade
+
+#Then Build your Site on local repo and install express: 
+$ npm run build
+
+$ npm install --save express
+
+#make server.js file in your local repo and paste(doc: https://create-react-app.dev/docs/deployment/):
+
+const express = require('express');
+const path = require('path');
+const app = express();
+
+app.use(express.static(path.join(__dirname, 'build')));
+
+app.get('/*', function (req, res) {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
+app.listen(9000);
+
+#Push in remote repo.
+
+#Clone into DigitalOcean console(in your droplet).
+$ git clone " repo-url "
+
+#cd to your project and install npm/node:
+Install node using nvm (Node Virtual Manager)
+
+$ curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+
+#update your node environment: $ source ~/.profile
+
+#Finding available node: $ nvm ls-remote
+
+#Install latest one(on 08/2022 version 16 were recomended): $ nvm install v16
+
+#Install express in droplet -> project folder: $ npm install --save express
+
+#Build your project in droplet -> project folder: $ npm run build
+
+#Install nginx server to serve your application: $ apt-get install nginx
+
+#configure nginx:
+cd to your root folder: $ cd /
+
+go to:
+$ cd/etc/nginx/sites-availabe
+you can see default folder only.
+
+
+
+
+
+
