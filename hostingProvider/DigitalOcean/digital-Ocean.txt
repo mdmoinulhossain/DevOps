@@ -3,6 +3,8 @@ Common CLI: cd>cd ..>ls
 ls -a (see hidden file in server)
 
 start server: $ node server.js
+
+
 #Makes Droplet.
 
 #Once you are logged in within the System then update and upgrade your system by using linux command:
@@ -55,9 +57,26 @@ cd to your root folder: $ cd /
 
 go to:
 $ cd/etc/nginx/sites-availabe
-you can see default folder only.
+you can see "default" folder only.
+
+=========configure default folder=======
+sudo neno ./filename.ext
+
+sudo rm ./filename
+
+========================================
+
+Then reload your nginx: $ systemctl reload nginx
+
+Start again: $ node server.js
 
 
+=======pm2 for forever start========
+$ npm install -g pm2
+
+$ pm2 list
+
+$ pm2 start server.js --name "project name"
 
 
 
