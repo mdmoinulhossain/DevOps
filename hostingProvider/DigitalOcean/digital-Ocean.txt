@@ -1,10 +1,27 @@
-Common CLI: cd>cd ..>ls
+===========================================
+Common CLI: 
+
+#root directory: $ cd ~
+cd>cd ..>ls
 
 ls -a (see hidden file in server)
 
 start server: $ node server.js
 
+create a file:$ nano test.txt
 
+Enter some text, then press Ctrl+O to save the changes.
+* "Append" for save file
+Press Ctrl+X to exit the editor.
+
+#Remove Files: $ rm file.txt
+#forcely delete: $ rm -f filename
+#Directory delete: $ rm -d directory
+
+#view file: $ vi file name.
+#exit view: $ :qa! 
+
+===================================
 #Makes Droplet.
 
 #Once you are logged in within the System then update and upgrade your system by using linux command:
