@@ -21,6 +21,8 @@ Press Ctrl+X to exit the editor.
 #view file: $ vi file name.
 #exit view: $ :qa! 
 
+#Ubuntu version check: $ lsb_release -a
+
 ===================================
 #Makes Droplet.
 
@@ -94,6 +96,17 @@ $ npm install -g pm2
 $ pm2 list
 
 $ pm2 start server.js --name "project name"
+
+$ pm2 start/stop 0(id no.)
+$ pm2 delete (id no.) , to delete.
+
+
+
+
+====================Doc link=================
+https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-22-04
+
+https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-22-04
 
 
 
