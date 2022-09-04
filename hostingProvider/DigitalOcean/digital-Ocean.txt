@@ -69,7 +69,7 @@ $ curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 
 #Build your project in droplet -> project folder: $ npm run build
 
-#Install nginx server to serve your application: $ apt-get install nginx
+#Install nginx server to serve your application in root of droplet: $ apt-get install nginx
 
 #configure nginx:
 cd to your root folder: $ cd /
@@ -79,9 +79,12 @@ $ cd/etc/nginx/sites-availabe
 you can see "default" folder only.
 
 =========configure default folder=======
-sudo neno ./filename.ext
+*You can make multy default file for multy preject or multy project for same default file(just need changes location section)
 
-sudo rm ./filename
+create new default:
+$ sudo neno ./filename.ext
+remove file:
+$ sudo rm ./filename
 
 ========================================
 
@@ -107,6 +110,8 @@ $ pm2 delete (id no.) , to delete.
 https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-22-04
 
 https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-22-04
+
+https://github.com/Unitech/pm2/issues/3471
 
 
 
