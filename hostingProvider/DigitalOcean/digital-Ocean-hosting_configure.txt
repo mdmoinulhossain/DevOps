@@ -24,6 +24,7 @@ Press Ctrl+X to exit the editor.
 #Ubuntu version check: $ lsb_release -a
 
 ===================================
+*Reactjs and node js configure.
 #Makes Droplet.
 
 #Once you are logged in within the System then update and upgrade your system by using linux command:

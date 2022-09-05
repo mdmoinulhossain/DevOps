@@ -1,0 +1,15 @@
+======
+Local to server connector CLI for Cloud computing.
+Download link: https://www.putty.org/
+
+====================
+*PuTTYgen: for generate SSH key. generate public key and private key.
+*PuTTY: for link remote server to local server.
+
+1.session section: Host Ip for connect normally.
+
+or
+Setup a users
+1. session section: given Host Ip.
+2. Saved session for particular server.
+3. Connection->SSH->Auth section, need to connect private key, which generate from PuTTYgen.
