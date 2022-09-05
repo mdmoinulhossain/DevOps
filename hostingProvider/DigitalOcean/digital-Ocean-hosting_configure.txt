@@ -114,6 +114,8 @@ https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-
 
 https://github.com/Unitech/pm2/issues/3471
 
+https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-22-04
+
 
 
 
