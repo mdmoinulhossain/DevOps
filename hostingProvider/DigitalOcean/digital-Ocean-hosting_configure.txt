@@ -15,6 +15,7 @@ Enter some text, then press Ctrl+O to save the changes.
 Press Ctrl+X to exit the editor.
 
 #Remove Files: $ rm file.txt
+#Remove directory: $ rmdir directory_name  || rm -r directory_name
 #forcely delete: $ rm -f filename
 #Directory delete: $ rm -d directory
 
