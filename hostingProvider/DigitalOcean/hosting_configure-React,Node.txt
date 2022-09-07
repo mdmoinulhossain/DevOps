@@ -24,15 +24,15 @@ Press Ctrl+X to exit the editor.
 
 #Ubuntu version check: $ lsb_release -a
 
-===================================
-*Reactjs and node js configure.
+=============================*Reactjs and node js configure.=====================================================================
+
 #Makes Droplet.
 
 #Once you are logged in within the System then update and upgrade your system by using linux command:
 
 $ apt-get update && apt-get upgrade
 
-#Then Build your Site on local repo and install express: 
+=============================Then Build your Site on local repo and install express: =============================
 $ npm run build
 
 $ npm install --save express
@@ -52,6 +52,8 @@ app.get('/*', function (req, res) {
 app.listen(9000);
 
 #Push in remote repo.
+
+===================================================================================================================
 
 #Clone into DigitalOcean console(in your droplet).
 $ git clone " repo-url "
@@ -88,7 +90,7 @@ $ sudo neno ./filename.ext
 remove file:
 $ sudo rm ./filename
 
-========================================
+==================Reload your nginx======================
 
 Then reload your nginx: $ systemctl reload nginx
 
@@ -107,16 +109,41 @@ $ pm2 delete (id no.) , to delete.
 $ pm2 restart (id no.)
 
 
-
+====================================================================================================================================================
 
 ====================Doc link=================
+#install Node js
+https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04
+
+#Install nginx
 https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-22-04
 
+https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-22-04
+
+#ssl certificate
 https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-22-04
 
 https://github.com/Unitech/pm2/issues/3471
 
-https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-22-04
+===============================================
+
+================= enabled ufw===========
+$ sudo ufw enable
+$ sudo ufw default deny
+========================================
+
+
+
+===================Step to host react js and node js ============================
+1. Create a droplet.
+2. clone your project from github.
+2. Install node, npm, express in your peoject and build.
+3. Install nginx in droplet root.
+4. configure nginx "default"- folder.
+5. Install pm2 for forever server running.
+
+===============================================================================
+
 
 
 
