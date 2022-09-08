@@ -123,13 +123,20 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-applica
 #ssl certificate
 https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-22-04
 
+#Firewall Tutorial
+https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server#introduction
+
 https://github.com/Unitech/pm2/issues/3471
 
 ===============================================
 
 ================= enabled ufw===========
+$ sudo ufw status
 $ sudo ufw enable
 $ sudo ufw default deny
+
+$ sudo ufw allow 'Nginx Full'
+$ sudo ufw delete allow 'Nginx HTTP'
 ========================================
 
 
