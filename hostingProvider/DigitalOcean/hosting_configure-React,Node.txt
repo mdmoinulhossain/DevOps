@@ -121,12 +121,19 @@ https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-
 https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-22-04
 
 #ssl certificate
-https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-22-04
+https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-20-04
 
 #Firewall Tutorial
 https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server#introduction
 
+#git repo for pm2
 https://github.com/Unitech/pm2/issues/3471
+
+#nodejs configure for ssl and firewall
+https://www.coderrocketfuel.com/article/deploy-a-nodejs-application-to-digital-ocean-with-https
+
+#multy server in one droplet
+https://dev.to/zeeshanhshaheen/how-to-deploy-react-js-and-nodejs-app-on-a-single-digitalocean-droplet-using-nginx-1pcl
 
 ===============================================
 
