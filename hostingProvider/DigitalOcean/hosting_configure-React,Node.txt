@@ -138,6 +138,7 @@ https://dev.to/zeeshanhshaheen/how-to-deploy-react-js-and-nodejs-app-on-a-single
 ===============================================
 
 ================= enabled ufw===========
+$ sudo ufw allow 3000:5000/tcp - for allow 3000 to 5000 port
 $ sudo ufw status
 $ sudo ufw enable
 $ sudo ufw default deny
