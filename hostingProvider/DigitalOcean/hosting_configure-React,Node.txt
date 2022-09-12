@@ -94,7 +94,7 @@ $ sudo rm ./filename
 
 Then reload your nginx: $ systemctl reload nginx
 
-
+$ sudo systemctl restart nginx
 
 Maybe you're not doing it as root?
 
