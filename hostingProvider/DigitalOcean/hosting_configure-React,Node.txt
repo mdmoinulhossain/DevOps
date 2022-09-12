@@ -94,6 +94,12 @@ $ sudo rm ./filename
 
 Then reload your nginx: $ systemctl reload nginx
 
+
+
+Maybe you're not doing it as root?
+
+Try $ sudo nginx -s reload, if it still doesn't work, you might want to try $ sudo pkill -HUP nginx.
+
 Start again: $ node server.js
 
 
