@@ -1,0 +1,12 @@
+Step-1. Create Droplet.
+Step-2. Enabled firewall (after allow openSSH, otherwise console disabled by firewall)
+Step-3: nginx install. and test your server.
+
+=====configuration=============/var/www==========================
+This is your root folder where your website host. website folder.
+
+
+
+=====configuration========etc/nginx/sites-available==========
+Website Direction.
+

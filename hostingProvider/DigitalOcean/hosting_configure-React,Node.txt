@@ -143,25 +143,20 @@ https://dev.to/zeeshanhshaheen/how-to-deploy-react-js-and-nodejs-app-on-a-single
 
 ===============================================
 
-================= enabled ufw===========
-$ sudo ufw allow 3000:5000/tcp - for allow 3000 to 5000 port
-$ sudo ufw status
-$ sudo ufw enable
-$ sudo ufw default deny
+================= ===========
 
-$ sudo ufw allow 'Nginx Full'
-$ sudo ufw delete allow 'Nginx HTTP'
 ========================================
 
 
 
 ===================Step to host react js and node js ============================
-1. Create a droplet.
-2. clone your project from github.
-2. Install node, npm, express in your peoject and build.
-3. Install nginx in droplet root.
-4. configure nginx "default"- folder.
-5. Install pm2 for forever server running.
+#. Create a droplet.
+#. Install nginx in droplet root.
+#. enabled ufw (config ufw)
+#. configure nginx "default"- folder.(each projects for each file configure)
+#. clone your project from github.
+#. Install node, npm, express in your peoject and build.
+#. Install pm2 for forever server running.
 
 ===============================================================================
 

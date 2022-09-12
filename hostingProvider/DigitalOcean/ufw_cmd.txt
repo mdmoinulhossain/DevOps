@@ -30,3 +30,13 @@ Application profile commands:
  app info PROFILE                show information on PROFILE
  app update PROFILE              update PROFILE
  app default ARG                 set default application policy
+
+=================================================================================================
+
+$ sudo ufw allow 3000:5000/tcp - for allow 3000 to 5000 port
+$ sudo ufw status
+$ sudo ufw enable
+$ sudo ufw default deny
+
+$ sudo ufw allow 'Nginx Full'
+$ sudo ufw delete allow 'Nginx HTTP'
