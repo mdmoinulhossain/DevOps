@@ -152,10 +152,10 @@ https://dev.to/zeeshanhshaheen/how-to-deploy-react-js-and-nodejs-app-on-a-single
 ===================Step to host react js and node js ============================
 #. Create a droplet.
 #. Install nginx in droplet root.
-#. enabled ufw (config ufw)
-#. clone your project from github.
-#. configure nginx "default"- folder.(each projects for each file configure)
+#. enabled ufw (config ufw), Enabled firewall (after allow openSSH, otherwise console disabled by firewall)
+#. clone your project from github. (in '/var/www' -folder)
 #. Install node, npm, express in your peoject and build.
+#. configure nginx "default"- folder.(each projects for each file configure) ('/etc/nginx/sites-available' -folder)
 #. Install pm2 for forever server running.
 
 ===============================================================================
