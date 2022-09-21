@@ -118,6 +118,9 @@ $ pm2 restart (id no.)
 ====================================================================================================================================================
 
 ====================Doc link=================
+#Digital Ocean Doc.
+https://docs.digitalocean.com/
+
 #install Node js
 https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04
 
