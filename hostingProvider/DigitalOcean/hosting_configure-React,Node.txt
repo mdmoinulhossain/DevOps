@@ -135,8 +135,14 @@ https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-
 #Firewall Tutorial
 https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server#introduction
 
+
+#PM2 doc
+https://pm2.keymetrics.io/docs/usage/quick-start/
+
 #git repo for pm2
 https://github.com/Unitech/pm2/issues/3471
+
+https://github.com/Unitech/pm2
 
 #nodejs configure for ssl and firewall
 https://www.coderrocketfuel.com/article/deploy-a-nodejs-application-to-digital-ocean-with-https
