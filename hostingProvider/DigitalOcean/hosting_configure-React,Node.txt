@@ -69,7 +69,7 @@ $ curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 
 #Install latest one(on 08/2022 version 16 were recomended): $ nvm install v16
 
-#Install express in droplet -> project folder: $ npm install --save express
+#Install express in droplet -> project folder: $ npm install --save express  || $ npm install --save express -f
 
 #Build your project in droplet -> project folder: $ npm run build
 
