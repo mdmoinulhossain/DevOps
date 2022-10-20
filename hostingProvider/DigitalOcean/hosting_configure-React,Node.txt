@@ -24,6 +24,9 @@ Press Ctrl+X to exit the editor.
 
 #Ubuntu version check: $ lsb_release -a
 
+Copy: ctrl + insert
+Paste: shift + insert
+
 =============================*Reactjs and node js configure.=====================================================================
 
 #Makes Droplet.
