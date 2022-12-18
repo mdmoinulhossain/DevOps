@@ -1,1 +1,3 @@
 https://wordpress.com/ - for host free WP site.
+
+https://wordpress.org/ - Wordpress distrilled.
