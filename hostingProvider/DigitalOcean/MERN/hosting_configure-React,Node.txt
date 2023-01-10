@@ -6,7 +6,7 @@ cd>cd ..>ls
 
 ls -a (see hidden file in server)
 
-start server: <code> $ node server.js </code>
+start server: $ node server.js
 
 create a file:$ nano test.txt
 
