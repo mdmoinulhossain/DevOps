@@ -22,7 +22,7 @@ $ npm run deploy
 * This command create a new branch named gh-pages.
 
 Then change the settings:
-Repo-> Settings-> pages-> branch change to "gh-page"
+Repo-> Settings-> pages-> branch change to "gh-pages"
 
 After deploy you will see your live project url in "pages" option. 
-Then after each update you run the "$ npm run deploy" - this command to automatic update. 
+Then after each update you run the "$ npm run deploy" - this command to automatic update of your projects. 
