@@ -1,5 +1,6 @@
 Step-1: In package.json, add This line:
-  "homepage": "https://github_username.github.io/repo_name",
+
+"homepage": "https://github_username.github.io/repo_name",
   
   
 Step-2: Install gh-page in project:
