@@ -154,6 +154,9 @@ https://www.coderrocketfuel.com/article/deploy-a-nodejs-application-to-digital-o
 #multy server in one droplet
 https://dev.to/zeeshanhshaheen/how-to-deploy-react-js-and-nodejs-app-on-a-single-digitalocean-droplet-using-nginx-1pcl
 
+# Ufw firewall
+https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-22-04
+
 ===============================================
 
 ================= ===========
