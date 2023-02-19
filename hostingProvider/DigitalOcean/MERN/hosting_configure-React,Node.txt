@@ -173,6 +173,7 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-u
 #. Install node, npm, express in your project and build.
 #. configure nginx "default"- folder.(each projects for each file configure) ('/etc/nginx/sites-available' -folder)
 #. Install pm2 for forever server running.
+#. Install Let's Encrypt for ssl certificate.
 
 ===============================================================================
 
