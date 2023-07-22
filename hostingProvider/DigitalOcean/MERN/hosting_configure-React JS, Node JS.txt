@@ -60,10 +60,10 @@ app.listen(9000);
 ===================================================================================================================
 
 #Clone into DigitalOcean console(in your droplet).
-$ git clone " repo-url "
+$ git clone "repo-url"
 
 #cd to your project and install npm/node:
-Install node using nvm (Node Virtual Manager)
+Install node js using nvm (Node Virtual Manager)
 
 $ curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 
@@ -85,6 +85,15 @@ cd to your root folder: $ cd /
 go to:
 $ cd/etc/nginx/sites-availabe
 you can see "default" folder only.
+
+======================Upgrade node js version (example v16 to v18) ==================
+$ nvm install 18.16.0
+--make it default node v
+$ nvm alias default 18.16.0
+
+--To check node v
+$ nvm list or nvm alias
+
 
 =========configure default folder=======
 *You can make multy default file for multy preject or multy project for same default file(just need changes location section)
