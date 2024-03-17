@@ -9,3 +9,8 @@ Step-6: (after upload wp-content folder) you need to edit wp-config.php as like 
 --- From (server/localhost) Ex. xyz.com
 Setp-3: Export your wp db.
 Step-6: download wp-content folder and upload it to your new wp. (first you need to delete wp-content folder in your new site)
+
+
+---------- Summary ----------
+Download/export database, wp-content folder and wp-config.php file from your existing site.
+then import database to your new site, replace wp-content folder, edit wp-config.php file as like your existing website, and change siteurl from options table.
